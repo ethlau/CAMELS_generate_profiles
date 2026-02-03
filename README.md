@@ -16,7 +16,7 @@ This repo contains optimized code for calculating gas profiles in cosmological s
 cd cython_src
 python setup.py build_ext --inplace
 ```
-### 2. Run the Simulation
+### 2. Run the Code
 
 ```bash
 mpirun -np <number_of_processes> python generate_profiles_cy_mpi.py <run_name>
