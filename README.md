@@ -2,10 +2,13 @@
 
 This repo contains optimized code for calculating gas profiles in cosmological simulations using Cython for significant performance improvements.
 
-## Cython Files
+## Requirements
+1. cython
+2. illustris_python
+3. mpi4py
+4. astropy, scipy, numpy, h5py, tqdm
 
-1. `cython_src/process_halos.pyx` - The optimized Cython implementation of the profile calculation function
-2. `cython_src/setup.py` - Script to compile the Cython code
+## How to use: 
 
 ### Compile the Cython Module
 
